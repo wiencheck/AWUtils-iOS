@@ -7,7 +7,8 @@
 
 import UIKit
 
-public extension UIWindowScene {
+@available(iOS 13.0, *)
+extension UIWindowScene {
     
     static var focused: UIWindowScene? {
         return UIApplication.shared.connectedScenes
